@@ -62,7 +62,7 @@ buttons.forEach((button)=>{
     button.addEventListener("click",()=>{
         if(vturn){
             // console.log("box was clicked");
-            button.innerText="V";
+            button.innerText="X";
             button.disabled=true;
             button.backgroundColor="black";
             vturn=false;
@@ -70,7 +70,7 @@ buttons.forEach((button)=>{
             //console.log(count);
         }
         else{
-            button.innerText="I";
+            button.innerText="O";
             button.disabled=true;
             vturn=true;
             count++;
